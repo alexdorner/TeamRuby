@@ -28,7 +28,7 @@ while true
       patienten.each { |p| print p}
       puts
       puts
-      puts "Ok tschüss!!"
+      puts "Ok tschüss"
       break
         
     else
