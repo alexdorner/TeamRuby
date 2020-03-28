@@ -1,3 +1,5 @@
+require_relative './Functions'
+
 class Fun
 
 #Überschrift für die Schönheit
@@ -32,7 +34,7 @@ while true
       break
         
     else
-      prozent = (w1 - w2)/w1 *100
+      prozent = Functions.new().prozent(w1, w2)
       puts "Die prozentuelle Abweichung beträgt: #{prozent} %"
       
       puts
